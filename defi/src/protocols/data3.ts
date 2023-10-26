@@ -15441,7 +15441,7 @@ const data3: Protocol[] = [
       "TermFinance is a fixed rate borrow/lend protocol pioneering an auction model to originate fixed rate, fixed term crypto backed loans at scale.",
     chain: "Ethereum",
     logo: `${baseIconsUrl}/termfinance.png`,
-    audits: "2",
+    audits: "4",
     audit_note: null,
     gecko_id: null,
     cmcId: null,
@@ -15449,6 +15449,13 @@ const data3: Protocol[] = [
     chains: ["Ethereum"],
     module: "term-finance/index.js",
     twitter: "term_labs",
+    github: ["term-finance"],
+    audit_links: [
+      "https://github.com/term-finance/term-finance-contracts/blob/main/audits/sigma-prime/Smart%20Contract%20Security%20Assessment%20-%20Sigma%20Prime%20-%202.0.pdf",
+      "https://github.com/term-finance/term-finance-contracts/blob/main/audits/sigma-prime/Smart%20Contract%20Security%20Assessment%20-%20Sigma%20Prime%20-%203.0.pdf",
+      "https://github.com/term-finance/term-finance-contracts/blob/main/audits/dedaub/Smart%20Contract%20Security%20Assessment%20-%20Dedaub.pdf",
+      "TODO"
+    ],
     forkedFrom: [],
     oracles: ["Chainlink"],
     audit_links: ["https://docs.term.finance/security-audits/sigma-prime"],
